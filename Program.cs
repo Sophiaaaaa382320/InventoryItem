@@ -1,1 +1,8 @@
-﻿Console.WriteLine("Hello, World!");
+﻿string[] inventory = { "Health Potion", "Sword", "Shield", "Bread","Key"};
+
+for(int i=0; i < inventory.Length; i++)
+{
+    Console.WriteLine($"Slot {i}: {inventory[i]}");
+}
+
+Console.WriteLine($"\nTotal items: {inventory.Length}");
